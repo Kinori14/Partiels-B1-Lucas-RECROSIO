@@ -1,0 +1,52 @@
+$mobile-max: 767px;
+$tablet: 768px;
+$tablet-max: 991px;
+$desktop: 992px;
+ 
+.tablet{
+    display: flexbox;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+#boite_1,#boite_2,#boite_3{
+ 
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 50%;
+  padding-bottom: 50%;
+ 
+}
+@media (min-width: $tablet) AND (max-width: $tablet-max){
+ 
+    .tablet{
+        display: box;
+    }
+ 
+  }
+
+
+  #loupe {
+
+    position:absolute;
+
+    right:5px;
+
+    top:-90px;
+
+    display:inline-block;
+
+    background:#eee;
+
+    border:1px solid #DD4B39;
+
+    font-size:4em;
+
+    font-weight:700;
+
+    padding:10px;
+
+}
+
